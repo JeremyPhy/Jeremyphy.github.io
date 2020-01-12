@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+
+#from: https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/
+#url: https://www.jeremyphy.me   # with the https protocol
+enforce_ssl: www.jeremyphy.me   # without any protocol
