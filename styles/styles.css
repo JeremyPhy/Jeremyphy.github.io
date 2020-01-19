@@ -1,6 +1,12 @@
+body{
+    padding: 50px 50px 50px 50px;
+}
+
+div{
+    margin:auto;
+}
 
 p {
-    border-style: solid;
     border-top-width: 15px;
     font-family: 'Roboto', sans-serif;
 }
@@ -8,8 +14,4 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
-div{
-    height: 50%;
-    width: 50%;
-}
 
