@@ -10,11 +10,18 @@ p {
     border-top-width: 15px;
     font-family: 'Roboto', sans-serif;
 }
+
+u{
+    text-decoration: underline;
+}
+
 h1{
     color: #164e98;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 a{
-    color:black;
+    color: #164e98;
+    text-decoration: none;
 }
