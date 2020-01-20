@@ -11,8 +11,8 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-u{
-    text-decoration: underline;
+blu{
+    color: #164e98;
 }
 
 h1{
@@ -24,5 +24,4 @@ h1{
 
 a{
     color: #164e98;
-    text-decoration: none;
 }
