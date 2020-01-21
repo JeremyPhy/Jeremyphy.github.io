@@ -1,6 +1,8 @@
 FEATURES TO IMPLEMENT
-- Navigation menu bar
-- 'experimental page'
+- sizing of navBar
+- hover link color change
+- circle picture in about section
+
+
 - random quotes pulled from SQL database
 - mobile compatibility improvement
-- 
