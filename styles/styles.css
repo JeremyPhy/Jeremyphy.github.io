@@ -1,5 +1,6 @@
 body{
     padding: 1% 7% 7% 6%;
+    text-align: center;
 }
 
 div{
@@ -27,9 +28,7 @@ a{
     color: #164e98;
 }
 .square{
-    position: absolute;
-    left: 6.8vw;
     height: 7px;
-    width: 35%;
+    width: 15%;
     background-color: #164e98;
 }
