@@ -37,13 +37,15 @@ a:hover {
   /* List  */
 ul{
     list-style:none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #164e98;    
+    padding:0;
+    margin:0;
 }
 
 li {
     display: inline;
-    position: relative;
+    position:relative;
     padding: 1vw 13px 13px 1vw;
     margin:auto;
 }
@@ -56,6 +58,7 @@ li a{
     margin-top: 0;
     margin-left: 30%;
     margin-right: 30%;
+    
 }
 
 img.rounded {
