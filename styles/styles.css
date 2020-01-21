@@ -66,6 +66,7 @@ img.rounded {
     width: 30%;
     border-radius: 50%;
     object-fit: cover;
+    min-width: 270px;
 }
 
 .square{
