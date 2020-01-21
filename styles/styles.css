@@ -1,5 +1,5 @@
 body{
-    padding: 2% 7% 7% 6%;
+    padding: 1% 7% 7% 6%;
 }
 
 div{
@@ -17,6 +17,7 @@ blu{
 
 h1{
     font-size: 2.6em;
+    margin-bottom: 0.2em;
     color: #164e98;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -27,8 +28,8 @@ a{
 }
 .square{
     position: absolute;
-    left: 6.5%;
-    height: 10px;
-    width: 30%;
+    left: 6.8vw;
+    height: 7px;
+    width: 35%;
     background-color: #164e98;
 }
