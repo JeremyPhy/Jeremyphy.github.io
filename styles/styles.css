@@ -1,5 +1,6 @@
+/*  */
 body{
-    padding: 0% 7% 7% 6%;
+    padding: .5% 7% 7% 7%;
     text-align: center;
 }
 
@@ -7,9 +8,10 @@ div content{
     margin:auto;
 }
 
-
+/* Text */
 h1{
     font-size: 2.7em;
+    margin-top: 0.2em;
     margin-bottom: 0.2em;
     color: #164e98;
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +29,12 @@ blu{
 a{
     color: #164e98;
 }
+a:hover {
+    color: black;
+    text-decoration: none;
+  }
 
+  /* List  */
 ul{
     list-style:none;
     font-family: 'Roboto', sans-serif;
@@ -37,16 +44,25 @@ ul{
 li {
     display: inline;
     position: relative;
-    padding: 0 1vw;
-    text-align: center;
+    padding: 1vw 13px 13px 1vw;
+    margin:auto;
 }
 li a{
     text-decoration: none;
 }
 
+/* Multimedia */
 .navbar{
     margin-top: 0;
-    text-align:center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+img.rounded {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .square{
