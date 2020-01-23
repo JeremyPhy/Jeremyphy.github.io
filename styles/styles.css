@@ -1,6 +1,6 @@
 /*  */
 body{
-    padding: .5% 7% 7% 7%;
+    padding: .5% 7% 0% 7%;
     text-align: center;
 }
 
@@ -60,15 +60,16 @@ li a{
     margin-top: 0;
     margin-left: 30%;
     margin-right: 30%;
+    max-width: 39%;
     
 }
 
 img.rounded {
-    height: 30%;
-    width: 30%;
+    height: 28%;
+    width: 28%;
     border-radius: 50%;
     object-fit: cover;
-    min-width: 270px;
+    min-width: 240px;
 }
 
 .square{
