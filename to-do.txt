@@ -1,8 +1,12 @@
 FEATURES TO IMPLEMENT
-- sizing of navBar
-- hover link color change
-- circle picture in about section
 
-
+Magic Mirror.
+- display important information for me to start my day
+- - temperature/precipitation at 8am, 12pm, 3pm, 6, 9 and 12 (API)
+- - class schedule from waterloo Quest API or JSON file
+- - calendar events from google calendar
+- - Raptors game schedule/box scores
 - random quotes pulled from SQL database
-- mobile compatibility improvement
+
+Thoughts Page
+- Future projects/ideas and brief discription

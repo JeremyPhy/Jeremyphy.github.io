@@ -1,5 +1,7 @@
 # JeremyPhy.github.io
 
-I'm making a personalized website using HTML and CSS.
+I've made a personalized website to familiarize myself with front-end development.
 
-It will host my projects, showcase my experiences and show you what inspires me.
+So far I've used HTML and CSS for display and pages. In the future I'm going to implement JavaScript and access data from local/remote databases.
+
+Check out my to-do list to see what my future plans are!
