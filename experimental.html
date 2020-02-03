@@ -39,10 +39,21 @@
         <div class="content">
             <h1>Experimental</h1>
             <div class="square"></div>
-            <br><br><br><br><br><br>📊<br>
-            <p> Database goes here</p>
             <br><br>
             <p> 🚧 Currently under construction 🚧</p>
+            <br><br>
+
+            <p>Show weather in: </p>
+            <button onclick="document.getElementById('Weather').src='https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-85&amp;lang=e'">Markham</button>
+            <button onclick="document.getElementById('Weather').src='https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-82&amp;lang=e'">Waterloo</button>
+            
+
+            <!-- Begin WeatherLink Fragment -->
+            <iframe id ="Weather" title="Environment Canada Weather" width="287px" height="191px" 
+            src="https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-82&amp;lang=e" 
+            allowtransparency="true" frameborder="0"></iframe>
+            <!-- End WeatherLink Fragment -->
+
         </div>
     </body>
     

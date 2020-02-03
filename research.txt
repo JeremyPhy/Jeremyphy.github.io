@@ -1,10 +1,9 @@
-https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
+WEATHER
+- https://weather.gc.ca/business/index_e.html
 
 
-
-
-
-
+JAVASCRIPT
+- https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 
 CSS concepts
 - https://www.taniarascia.com/overview-of-css-concepts/
