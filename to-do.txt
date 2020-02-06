@@ -1,3 +1,16 @@
+MISC IMPROVEMENTS
+
+responsive video frames
+ - https://www.w3schools.com/html/html_youtube.asp
+ - https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_footer
+
+weather buttons
+- https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic
+
+selector improvements?
+- dont pre-optimize
+- https://www.w3schools.com/csSref/css_selectors.asp
+
 FEATURES TO IMPLEMENT
 
 Magic Mirror.
