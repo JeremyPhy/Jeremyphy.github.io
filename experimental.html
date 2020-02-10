@@ -42,19 +42,23 @@
             <br>
             <p> 🚧 Currently under construction 🚧</p>
             <br>
-            <div class = "videos">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jG7dSXcfVqE?controls=0" frameborder="0" 
+            <!-- video display-->
+            <div>
+                <iframe class="video" src="https://www.youtube-nocookie.com/embed/jG7dSXcfVqE" frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pAAsWGvkJ3g?controls=0" frameborder="0"
+                <iframe class="video" src="https://www.youtube-nocookie.com/embed/pAAsWGvkJ3g" frameborder="0"
                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oY59wZdCDo0?controls=0" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube-nocookie.com/embed/oY59wZdCDo0" frameborder="0"
+                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <!-- weather display -->
             <div class ="weather">
+                <br>
                 <p>Show weather in: </p>
-                <button onclick="document.getElementById('weather_panel').src='https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-85&amp;lang=e'">Markham</button>
-                <button onclick="document.getElementById('weather_panel').src='https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-82&amp;lang=e'">Waterloo</button>
-                <!--test-->
+                <button onclick="document.getElementById('weather_panel').src=
+                'https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-85&amp;lang=e'">Markham</button>
+                <button onclick="document.getElementById('weather_panel').src=
+                'https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-82&amp;lang=e'">Waterloo</button>
                 <br><br>
                 <!-- Begin WeatherLink Fragment -->
                 <iframe id ="weather_panel" title="Environment Canada Weather" 
@@ -62,7 +66,6 @@
                 allowtransparency="true" frameborder="0"></iframe>
                 <!-- End WeatherLink Fragment -->
             </div>
-            <br>  
         </div>
     </body>
     

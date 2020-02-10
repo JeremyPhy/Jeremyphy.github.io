@@ -1,12 +1,29 @@
-/* Weather Panel */
+/* experimental elements */
 #weather_panel{
     width:30%;
     height:50%;
     min-width:300px;
     min-height:450px;
 }
-weather.button{
-    
+
+iframe.video{
+    width: 27%;
+}
+
+/* media elements*/
+img.rounded {
+    height: 28%;
+    width: 28%;
+    border-radius: 50%;
+    object-fit: cover;
+    min-width: 240px;
+}
+
+.square{
+    height: 7px;
+    width: 15%;
+    background-color: #164e98;
+    margin:auto;
 }
 
 /*  */
@@ -16,7 +33,7 @@ body{
     margin: auto;
 }
 
-/* Text */
+/* Text styles */
 h1{
     font-size: 2.7em;
     margin-top: 0.2em;
@@ -33,9 +50,6 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-blu{
-    color: #164e98;
-}
 a{
     color: #164e98;
     text-decoration: none;
@@ -44,7 +58,7 @@ a:hover {
     color: black;
   }
 
-  /* List  */
+  /* List elements */
 ul{
     list-style:none;
     font-family: 'Montserrat', sans-serif;
@@ -62,28 +76,9 @@ li {
     margin:auto;
 }
 
-/* Multimedia */
 .navbar{
     margin-top: 0;
     margin-left: 31%;
     margin-right: 30%;
     max-width: 39%;
-    
 }
-
-img.rounded {
-    height: 28%;
-    width: 28%;
-    border-radius: 50%;
-    object-fit: cover;
-    min-width: 240px;
-}
-
-.square{
-    height: 7px;
-    width: 15%;
-    background-color: #164e98;
-    margin:auto;
-}
-
-
