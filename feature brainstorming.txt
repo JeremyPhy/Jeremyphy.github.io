@@ -1,0 +1,18 @@
+Magic Mirror.
+- display important information for me to start my day
+- temperature/precipitation at 8am, 12pm, 3pm, 6, 9 and 12 (API)
+- class schedule from waterloo Quest API or JSON file
+- calendar events from google calendar
+
+Thoughts Page
+- Future projects/ideas and brief discription
+
+Mood tracker with database
+
+league rank tracker with MMR api
+
+raptors game schedule
+- when is the next raptors game
+
+wardrobe generator
+- outfits comprise of pieces of clothing

@@ -1,9 +1,25 @@
-WEATHER
-- https://weather.gc.ca/business/index_e.html
+JSON
+- https://duckduckgo.com/?q=html+and+json+file&atb=v177-1&ia=web
+- https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
+- https://howtocreateapps.com/fetch-and-display-json-html-javascript/
+
+button styling:
+- https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic
+
 
 
 JAVASCRIPT
 - https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 
+responsive video frames
+ - https://www.w3schools.com/html/html_youtube.asp
+ - https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_footer
+
+
+
+
 CSS concepts
 - https://www.taniarascia.com/overview-of-css-concepts/
+
+WEATHER panel 
+- https://weather.gc.ca/business/index_e.html
