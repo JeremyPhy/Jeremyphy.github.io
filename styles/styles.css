@@ -8,8 +8,8 @@
 
 iframe.video{
     width: 30%;
-    min-width: 300px;
-    min-height: 180px;
+    min-width: 380px;
+    min-height: 280px;
 }
 
 /* media elements*/
@@ -54,11 +54,17 @@ p {
 
 a{
     color: #164e98;
-    text-decoration: none;
+    text-decoration: underline;
+    /*text-shadow: 2px 2px black;*/
 }
 a:hover {
     color: black;
-  }
+    text-decoration: none;
+}
+
+a:visited {
+    color: #164e98;
+}
 
   /* List elements */
 ul{
@@ -76,6 +82,10 @@ li {
     position:relative;
     padding: 1vw 13px 13px 1vw;
     margin:auto;
+    text-decoration: none;
+}
+#nav{
+    text-decoration: none;
 }
 
 .navbar{

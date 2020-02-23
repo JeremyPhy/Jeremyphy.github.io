@@ -1,6 +1,4 @@
 
-rename experimental to inspiration
-remove weather panel
 add OKGO 'one moment' to inspiration
-make videos taller
 reorder videos 
+
