@@ -1,3 +1,24 @@
+Task-time
+- my way of tracking things to do and time to do them
+
+    store tasks and durations
+        -task class that stores name and time required
+        -stores tasks in array/or a manager
+    times
+        -end time stored, current time can be acquired both used to calculate remaining time
+        -sums tasks times and calculates delta between required and remaining time
+    interfacing
+        -display data from json file?
+        -clear json data
+        -add/remove element from list
+        -set end time  
+		
+		
+Outfit generator
+- generates outfits based of off JSON-stored wardrobe
+
+=== 
+
 Magic Mirror.
 - display important information for me to start my day
 - temperature/precipitation at 8am, 12pm, 3pm, 6, 9 and 12 (API)
@@ -14,5 +35,3 @@ league rank tracker with MMR api
 raptors game schedule
 - when is the next raptors game
 
-wardrobe generator
-- outfits comprise of pieces of clothing

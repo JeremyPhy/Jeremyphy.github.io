@@ -8,18 +8,6 @@ fetch(url)
 
   retieved from: https://howtocreateapps.com/fetch-and-display-json-html-javascript/
 
-    store tasks and durations
-        -task class that stores name and time required
-        -stores tasks in array/or a manager
-    times
-        -end time stored, current time can be acquired both used to calculate remaining time
-        -sums tasks times and calculates delta between required and remaining time
-    interfacing
-        -display data from json file?
-        -clear json data
-        -add/remove element from list
-        -set end time  
-
 <!-- weather display -->
             <div class ="weather">
                 <br>
