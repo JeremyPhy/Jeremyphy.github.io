@@ -45,35 +45,32 @@
             <div class="square"></div>
             <br>
             <p> 🚧 Currently under construction 🚧</p>
-            <br>
-            <!-- weather display -->
-            <div class ="weather">
-                <br>
-                <p>Show weather in: </p>
-                <button onclick="document.getElementById('weather_panel').src=
-                'https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-85&amp;lang=e'">Markham</button>
-                <button onclick="document.getElementById('weather_panel').src=
-                'https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-82&amp;lang=e'">Waterloo</button>
-                <br><br>
-                <!-- Begin WeatherLink Fragment -->
-                <iframe id ="weather_panel" title="Environment Canada Weather" 
-                src="https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-82&amp;lang=e" 
-                allowtransparency="true" frameborder="0"></iframe>
-                <!-- End WeatherLink Fragment -->
-            </div>
-            <div>
-                <p>
-                    store tasks and durations
-                        -task class that stores name and time required
-                        -stores tasks in array/or a manager
-                    times
-                        -end time stored, current time can be acquired both used to calculate remaining time
-                        -sums tasks times and calculates delta between required and remaining time
-                    interfacing
-                        -display data from json file?
-                        -clear json data
-                        -add/remove element from list
-                        -set end time
+            <br>              
+            <div id="myData">
+                
+    <script>
+        fetch('people.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+        function appendData(data) {
+            var mainContainer = document.getElementById("myData");
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+    <div id="myData"></div>
+                <p>             
                 </p>
                 
             </div>
