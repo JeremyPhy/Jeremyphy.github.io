@@ -1,3 +1,8 @@
+REACT
+- https://reactjs.org/docs/add-react-to-a-website.html
+
+===outdated
+
 JSON with html and javascript
 - https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
 - https://howtocreateapps.com/fetch-and-display-json-html-javascript/
