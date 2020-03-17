@@ -3,7 +3,7 @@
     width:30%;
     height:50%;
     min-width:300px;
-    min-height:450px;
+    min-height:270px;
 }
 
 iframe.video{
@@ -14,8 +14,8 @@ iframe.video{
 
 /* media elements*/
 img.rounded {
-    height: 28%;
-    width: 28%;
+    height: 25%;
+    width: 25%;
     border-radius: 50%;
     object-fit: cover;
     min-width: 240px;
