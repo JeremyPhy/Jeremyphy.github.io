@@ -42,41 +42,13 @@
                 </li>
             </ul>
         </div>
+
         <div class="content">
-            <h1>Experimental</h1>
+            <!-- header and heading line-->
+            <h1>Projects</h1>
             <div class="square"></div>
             <br>
-            <p> 🚧 Currently under construction 🚧</p>
-            <br>              
-            <div id="myData">
-                
-    <script>
-        fetch('people.json')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
-
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 0; i < data.length; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>
-    <div id="myData"></div>
-                <p>             
-                </p>
-                
-            </div>
+            <p>Hullo</p>
         </div>
-    </body>
-    
+    </div>
 </html>

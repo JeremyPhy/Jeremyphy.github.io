@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
          <!-- CSS & Title -->
-        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="./styles/styles.css" rel="stylesheet" type="text/css">
         <title>Jeremy Phy | Projects</title>
 
         <!-- Fonts -->
@@ -35,48 +35,20 @@
                     <a id="nav" href="inspiration.html">Inspiration</a>
                 </li>
                 <li>
-                    <a id="nav" href="projects.html">Project Showcase</a>
+                    <a id="nav" href="/projects/projects.html">Project Showcase</a>
                 </li>
                 <li>
                     <a id="nav" href="experimental.html">Experimental</a>
                 </li>
             </ul>
         </div>
+
         <div class="content">
-            <h1>Experimental</h1>
+            <!-- header and heading line-->
+            <h1>Projects</h1>
             <div class="square"></div>
             <br>
-            <p> 🚧 Currently under construction 🚧</p>
-            <br>              
-            <div id="myData">
-                
-    <script>
-        fetch('people.json')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
-
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 0; i < data.length; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>
-    <div id="myData"></div>
-                <p>             
-                </p>
-                
-            </div>
+            <p>Hullo</p>
         </div>
-    </body>
-    
+    </div>
 </html>
