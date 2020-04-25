@@ -3,7 +3,7 @@ table of contents
 -experimental elements
 -media (images/video)
 -text 
--list 
+-navigation bar  
 */
 
 
@@ -81,7 +81,7 @@ a:visited {
     color: #164e98;
 }
 
-  /* List elements */
+  /* Navigation bar elements */
 ul{
     list-style:none;
     font-family: 'Montserrat', sans-serif;
