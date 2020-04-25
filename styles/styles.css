@@ -1,3 +1,12 @@
+/*
+table of contents
+-experimental elements
+-media (images/video)
+-text 
+-list 
+*/
+
+
 /* experimental elements */
 #weather_panel{
     width:30%;
@@ -6,13 +15,13 @@
     min-height:270px;
 }
 
+/* media elements*/
 iframe.video{
     width: 30%;
     min-width: 350px;
     min-height: 250px;
 }
 
-/* media elements*/
 img.rounded {
     height: 25%;
     width: 25%;
@@ -42,6 +51,12 @@ h1{
     margin-bottom: 0.2em;
     color: #164e98;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #164e98;    
     text-decoration: none;
 }
 
