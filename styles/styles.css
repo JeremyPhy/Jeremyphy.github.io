@@ -17,9 +17,9 @@ table of contents
 
 /* media elements*/
 iframe.video{
-    width: 30%;
+    width: 25%;
     min-width: 350px;
-    min-height: 250px;
+    min-height: 220px;
 }
 
 img.rounded {
@@ -28,6 +28,7 @@ img.rounded {
     border-radius: 50%;
     object-fit: cover;
     min-width: 240px;
+    max-width: 300px;
 }
 
 .square{
