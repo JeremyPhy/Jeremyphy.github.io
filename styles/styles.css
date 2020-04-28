@@ -17,9 +17,8 @@ table of contents
 
 /* media elements*/
 iframe.video{
-    width: 25%;
-    min-width: 350px;
-    min-height: 220px;
+    width: 50%;
+    min-height:320px;
 }
 
 img.rounded {
@@ -35,14 +34,16 @@ img.rounded {
     height: 7px;
     width: 15%;
     background-color: #164e98;
-    margin:auto;
 }
 
-/*  */
+/* formatting */
+.content{
+    margin-left:30%;
+    margin-right:20%;
+}
 body{
-    padding: .5% 7% 0% 7%;
-    text-align: center;
-    margin: auto;
+    /*padding: .5% 7% 0% 7%;
+    margin: auto;*/
 }
 
 /* Text styles */
@@ -62,8 +63,7 @@ h2{
 }
 
 p {
-    text-align: center;
-    margin: auto;
+    text-align: left;
     border-top-width: 15px;
     font-family: 'Roboto', sans-serif;
 }
@@ -105,8 +105,7 @@ li {
 }
 
 .navbar{
-    margin-top: 0;
-    margin-left: 31%;
-    margin-right: 30%;
+    margin-top: 1%;
+    margin-left: 30%;
     max-width: 39%;
 }
