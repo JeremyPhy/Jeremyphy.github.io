@@ -17,8 +17,10 @@ table of contents
 
 /* media elements*/
 iframe.video{
-    width: 50%;
-    min-height:320px;
+    width:100%;
+    min-height:23vw;
+    /*min-width:320px;
+    min-height:180px;*/
 }
 
 img.rounded {
@@ -39,7 +41,7 @@ img.rounded {
 /* formatting */
 .content{
     margin-left:30%;
-    margin-right:20%;
+    margin-right:30%;
 }
 body{
     /*padding: .5% 7% 0% 7%;
@@ -66,6 +68,7 @@ p {
     text-align: left;
     border-top-width: 15px;
     font-family: 'Roboto', sans-serif;
+    padding-right: 10%;
 }
 
 a{
