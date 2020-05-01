@@ -43,6 +43,7 @@ img.rounded {
     margin-left:30%;
     margin-right:30%;
 }
+
 body{
     /*padding: .5% 7% 0% 7%;
     margin: auto;*/
@@ -94,6 +95,7 @@ ul{
     margin-top: 0;
     margin-bottom: 0;
     margin-left:-.8vw;
+    text-decoration: none;
 }
 
 li {
@@ -111,4 +113,5 @@ li {
     margin-top: 1%;
     margin-left: 30%;
     max-width: 39%;
+    text-decoration: none;
 }
