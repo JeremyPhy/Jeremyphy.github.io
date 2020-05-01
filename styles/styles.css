@@ -16,7 +16,8 @@ table of contents
 }
 
 .container{
-    
+    padding-right:15px;
+    padding-left:15px;
 }
 
 /* media elements*/
@@ -72,7 +73,7 @@ h2{
 p {
     text-align: left;
     border-top-width: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-right: 10%;
 }
 
