@@ -9,8 +9,7 @@ table of contents
 
 /* experimental elements */
 
-
-
+/*===MEDIA QUERY OVERRIDES===*/
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     .container{
@@ -36,6 +35,7 @@ table of contents
     }
 }
 
+/* media elements*/
 #weather_panel{
     width:30%;
     height:50%;
@@ -43,8 +43,6 @@ table of contents
     min-height:270px;
 }
 
-
-/* media elements*/
 iframe.video{
     width:100%;
     min-height:23vw;
@@ -53,17 +51,17 @@ iframe.video{
 }
 
 img.rounded {
-    height: 25%;
+    /*height: 25%;
     width: 25%;
     border-radius: 50%;
     object-fit: cover;
-    min-width: 240px;
+    min-width: 240px;*/
     max-width: 300px;
 }
 
 .square{
-    height: 7px;
-    width: 15%;
+    height: 6px;
+    width: 20%;
     background-color: #164e98;
 }
 
@@ -104,7 +102,6 @@ p {
 a{
     color: #164e98;
     text-decoration: underline;
-    /*text-shadow: 2px 2px black;*/
 }
 a:hover {
     color: black;
