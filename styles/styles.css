@@ -8,6 +8,34 @@ table of contents
 
 
 /* experimental elements */
+
+/*===MEDIA QUERY OVERRIDES===*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .container{
+        width: 100%;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .container{
+        width: 75%;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container{
+        width: 50%;
+    }
+ }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container{
+        width: 50%;
+    }
+}
+
+/* media elements*/
 #weather_panel{
     width:30%;
     height:50%;
@@ -15,7 +43,6 @@ table of contents
     min-height:270px;
 }
 
-/* media elements*/
 iframe.video{
     width:100%;
     min-height:23vw;
@@ -24,17 +51,17 @@ iframe.video{
 }
 
 img.rounded {
-    height: 25%;
+    /*height: 25%;
     width: 25%;
     border-radius: 50%;
     object-fit: cover;
-    min-width: 240px;
+    min-width: 240px;*/
     max-width: 300px;
 }
 
 .square{
-    height: 7px;
-    width: 15%;
+    height: 6px;
+    width: 20%;
     background-color: #164e98;
 }
 
@@ -43,6 +70,7 @@ img.rounded {
     margin-left:30%;
     margin-right:30%;
 }
+
 body{
     /*padding: .5% 7% 0% 7%;
     margin: auto;*/
@@ -67,22 +95,22 @@ h2{
 p {
     text-align: left;
     border-top-width: 15px;
-    font-family: 'Roboto', sans-serif;
-    padding-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 20%;
 }
 
 a{
-    color: #164e98;
-    text-decoration: underline;
-    /*text-shadow: 2px 2px black;*/
+    color: black;
+    text-decoration: none;
 }
 a:hover {
     color: black;
     text-decoration: none;
+    background-color: rgb(214, 214, 214);
 }
 
 a:visited {
-    color: #164e98;
+    /*color: #164e98;*/
 }
 
   /* Navigation bar elements */
@@ -94,6 +122,7 @@ ul{
     margin-top: 0;
     margin-bottom: 0;
     margin-left:-.8vw;
+    text-decoration: none;
 }
 
 li {
@@ -111,4 +140,5 @@ li {
     margin-top: 1%;
     margin-left: 30%;
     max-width: 39%;
+    text-decoration: none;
 }
