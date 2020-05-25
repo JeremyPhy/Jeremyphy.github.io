@@ -1,9 +1,6 @@
 /*
-table of contents
--experimental elements
--media (images/video)
--text 
--navigation bar  
+selector guide
+https://www.w3schools.com/cssref/css_selectors.asp
 */
 
 
@@ -102,6 +99,7 @@ p {
 }
 
 a{
+    /* for exploration https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */ 
     color: black;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -116,6 +114,11 @@ a:hover {
 
 a:visited {
     /*color: #164e98;*/
+}
+a img{
+    padding-right: none;
+    padding-left: none;
+    background-color: rgb(255, 255, 255);
 }
 
   /* Navigation bar elements */
