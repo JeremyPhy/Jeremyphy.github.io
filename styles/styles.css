@@ -101,17 +101,15 @@ a{
     color: black;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 5px;
-    padding-left: 5px;
 }
 a:hover {
     color: black;
     text-decoration: none;
     background-color: rgb(231, 231, 231);
 }
-
-a img:hover {
-    background-color: rgb(255, 255, 255);
+#nav-link{
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 a:visited {
