@@ -1,9 +1,6 @@
 /*
-table of contents
--experimental elements
--media (images/video)
--text 
--navigation bar  
+selector guide
+https://www.w3schools.com/cssref/css_selectors.asp
 */
 
 
@@ -36,27 +33,15 @@ table of contents
 }
 
 /* media elements*/
-#weather_panel{
-    width:30%;
-    height:50%;
-    min-width:300px;
-    min-height:270px;
+
+#image-link{
+    padding-left:0;
+    padding-right:0;
 }
 
-iframe.video{
-    width:100%;
-    min-height:23vw;
-    /*min-width:320px;
-    min-height:180px;*/
-}
-
-img.rounded {
-    /*height: 25%;
-    width: 25%;
-    border-radius: 50%;
-    object-fit: cover;
-    min-width: 240px;*/
-    max-width: 300px;
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .square{
@@ -94,28 +79,46 @@ h2{
     text-decoration: none;
 }
 
+h3{
+    font-family: 'Montserrat', sans-serif;  
+    text-decoration: none;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;  
+    text-decoration: none;
+}
+
 p {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 15%;
+    padding-right: 10%;
     /*THIS IS THE IMPORTANT PADDING^^*/
 }
 
 a{
+    /* for exploration https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */ 
     color: black;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 5px;
-    padding-left: 5px;
 }
 a:hover {
     color: black;
     text-decoration: none;
     background-color: rgb(231, 231, 231);
 }
+#nav-link{
+    padding-right: 5px;
+    padding-left: 5px;
+}
 
 a:visited {
     /*color: #164e98;*/
+}
+a img{
+    padding-right: none;
+    padding-left: none;
+    background-color: rgb(255, 255, 255);
 }
 
   /* Navigation bar elements */
