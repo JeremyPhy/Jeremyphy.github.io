@@ -94,6 +94,17 @@ p {
     /*padding-right: 10%;*/
     
 }
+small{
+    font-family: 'Montserrat', sans-serif;
+}
+
+b{
+    font-family: 'Montserrat', sans-serif;
+}
+
+i{
+    font-family: 'Montserrat', sans-serif;
+}
 
 a{
     /* for exploration https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */ 
