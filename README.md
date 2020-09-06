@@ -1,4 +1,4 @@
-# JeremyPhy.github.io
+# JeremyPhy.me
 
 I've made a personalized website to familiarize myself with front-end development. So far I've used HTML and CSS along with Bootstrap 4 for website infrastructure and page styling. 
 
