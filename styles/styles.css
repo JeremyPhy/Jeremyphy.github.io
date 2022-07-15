@@ -106,18 +106,19 @@ i{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Link formatting (underline) */
 a{
     /* for exploration https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css/ */ 
     color: black;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    /* SECONDARY COLOR HEX VALUE: #EDF0F2*/
-    border-bottom: 2px solid  rgb(237, 240, 242);
+    /* Underline color val (HEX): #e7ecef (previously: #EDF0F2)*/
+    border-bottom: 2px solid  rgb(240, 240, 240);
 }
 a:hover {
     color: black;
     text-decoration: none;
-    background-color: rgb(237, 240, 242);
+    background-color: rgb(240, 240, 240);
 }
 #nav-link{
     padding-right: 5px;
